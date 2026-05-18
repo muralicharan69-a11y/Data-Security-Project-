@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Runtime uploads and auth cache (not part of the app source)
+uploads/*.wav
+uploads/webauthn_credentials.json
+uploads/webauthn_credentials.lock
